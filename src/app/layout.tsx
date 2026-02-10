@@ -2,13 +2,13 @@ import type { Metadata, Viewport } from 'next';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-    title: 'Tempo — Habit & Time Tracker',
+    title: 'Retep — Habit & Time Tracker',
     description: 'Plan your week. Track your time. Own your data.',
     manifest: '/manifest.json',
     appleWebApp: {
         capable: true,
         statusBarStyle: 'black-translucent',
-        title: 'Tempo',
+        title: 'Retep',
     },
 };
 
